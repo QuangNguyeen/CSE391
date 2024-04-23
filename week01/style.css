@@ -1,0 +1,94 @@
+
+body {
+    background: #f3e9ff;
+    font-family: "Roboto", sans-serif;
+}
+
+header {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.title {
+    display: block;
+    font-weight: 800;
+    font-size: 75px;
+    color: #5730c6;
+    text-align: center;
+}
+
+.logo {
+    display: block;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+main {
+    display: block;
+    background: #774ad8;
+    color: white;
+    width: 1050px;
+    margin-top: 80px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.content {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.highlight {
+    color: #faed99;
+    border-left: 4px solid #ffcf58;
+    padding-left: 10px;
+}
+
+.note {
+    margin: 14px;
+}
+
+.link {
+    text-decoration: none;
+    color: #2c0b37;
+    background-color: #faeba6;
+    border-radius: 4px;
+    padding: 5px;
+    font-weight: 500;
+}
+
+footer {
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    text-align: center;
+
+    /*Chua hieu hai dong cuoi lam*/
+    /* justify-content: center;
+    align-items: center; */
+}
+
+.btn {
+    /*Xoa gach chan duoi link*/
+    text-decoration: none;
+    text-align: center;
+    padding-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-size: 15px;
+    border-radius: 10px;
+    border: 0px;
+    width: 200px;
+    height: 43px;
+    background: #f9c927;
+    color: black;
+}
