@@ -64,10 +64,8 @@ button {
     color: white;
     font-weight: bold;
     border: none;
+    cursor: pointer;
     transition: 0.5s;
-}
-#quiz_submit{
-    margin-left: -1.4rem;
 }
 .quiz_container {
     display: flex;
@@ -99,7 +97,7 @@ button {
 }
 #progress {
     stroke: var(--main-clr);
-    stroke-dasharray: 250 9999;
+    stroke-dasharray: 899 9999;
     transition: 0.5s;
 }
 #progress_text {
@@ -127,12 +125,12 @@ button {
 .quiz_question ul li.active {
     background: var(--main-clr);
     color: white;
-    transition: 0.2s;
+    transition: 0.5s;
 }
-.quiz_question ul li.incorrect{
+.quiz_question ul li.incorrect {
     background: indianred;
     color: white;
-    transition: 0.2s;
+    transition: 0.5s;
 }
 .quiz_question ul li span:nth-child(2) {
     margin-left: 1rem;
@@ -140,7 +138,7 @@ button {
 .quiz_question > p {
     font-weight: bold;
     font-size: 1.6rem;
-    height: 7.5rem;
+    height: 6rem;
 }
 .quiz_numbers {
     display: flex;
@@ -153,9 +151,6 @@ button {
     width: 75%;
     overflow-x: auto;
     padding: 1px;
-}
-ul::-webkit-scrollbar {
-    display: flex;
 }
 ul::-webkit-scrollbar {
     display: none;
@@ -175,14 +170,15 @@ ul {
     border-radius: 10px;
     line-height: 4rem;
     cursor: pointer;
-    border: 3px solid transparent;
+    border: 2px solid transparent;
 }
 .quiz_numbers > ul > li.selected {
     background-color: var(--main-clr);
     color: white;
 }
+
 .quiz_numbers > ul > li.active {
-    border: 3px solid var(--main-clr);
+    border: 2px solid var(--main-clr);
 }
 .quiz_numbers > ul > li.incorrect {
     background-color: indianred;
