@@ -1,5 +1,6 @@
 const API =
-    "https://script.google.com/macros/s/AKfycbwCh5EIRPg9p_jCTcdjYj8OFnzIvzVINnl8gyfGVXXOm5k9z2sN5yZSRxehWbdNyEw/exec"
+    "https://script.google.com/macros/s/AKfycbw92gYhMWdo01Yxzik-f-MjmiawhMUXTX0KDCyUKa60_syyNFep1QtnaW51uAgp2uAQ/exec";
+// ________FAKE_DATA_______________
 let questions;
 // ________QUIZ_APP________________
 const quizTimer = document.querySelector("#timer");
