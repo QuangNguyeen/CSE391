@@ -1,0 +1,69 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+.content{
+    display: flex;
+}
+body {
+    font-size: 1.6rem;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to bottom, #dfebf2, #73c6d9);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    color: #333;
+    align-items: center;
+}
+.wrapper {
+    background-color: #daf4fe;
+    min-height: 70rem;
+    width: 132rem;
+    border-radius: 50px;
+    padding: 4rem;
+}
+.information{
+    margin-left: 2rem;
+}
+.search{
+    width: 63rem;
+    display: flex;
+    align-items: center;
+    padding: 2rem;
+    border-radius: 20px;
+    background: white;
+}
+.search-input{
+    font-size: 2rem;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    width: 35rem;
+}
+.search-button{
+    font-size: 2rem;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #126da6;
+    color: white;
+}
+.picture{
+    display: flex;
+    border: none;
+}
+.picture img{
+    width: 22rem;
+    height: 29rem;
+    margin-left: 6rem;
+}
+.picture  #img2{
+    margin-top: -7rem;
+    border-radius: 20px;
+}
+.picture  #img1{
+    margin-top: 8rem;
+    border-radius: 20px;
+}
